@@ -1,0 +1,27 @@
+.question-section {
+    margin-bottom: 20px;
+  }
+  .question-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .answer-section button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .answer-section button:hover {
+    background-color: #45a049;
+    color: rgb(206, 206, 206);
+    transition-delay: 0.1s;
+    scale: 1.1;
+    transform:(22px ,22px ,22px)
+  }
+  
