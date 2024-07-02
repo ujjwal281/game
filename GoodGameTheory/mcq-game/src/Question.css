@@ -6,7 +6,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    animation-name: outanimation;
+    animation-duration: 1s;
+    scale: 1;
   }
+
+
+@keyframes outanimation{
+  from{scale: 0;}
+  to{scale: 1;}
+}
   .answer-section button {
     margin: 5px;
     padding: 10px 20px;
@@ -15,7 +24,12 @@
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    animation-name: outanimation;
+    animation-duration: 1s;
+    scale: 1;
   }
+
+
   
   .answer-section button:hover {
     background-color: #45a049;

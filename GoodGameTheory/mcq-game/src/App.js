@@ -53,16 +53,12 @@ function App() {
     }
   };
 
-  function reload() {
-
-  }
-
   return (
     <div className="app">
       {showScore ? (<> 
       <div className='para'>
         <Score score={score} total={questions.length} />
-        <button className='button1' onClick={reload()}> reset </button>
+        Refresh the page
       </div>
       </>
       ) : (
